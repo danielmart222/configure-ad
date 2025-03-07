@@ -22,7 +22,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Part 1 Prepareing AD infrastucture
+- Part 1 Preparing AD infrastucture
 - Part 2 Deploying Active Directory 
 - Part 3 Creating users with Power shell
 - Part 4 Group Policy and Managing Accounts
