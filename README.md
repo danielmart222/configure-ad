@@ -96,7 +96,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ---------
 
 
-- Type Run in the search bar -> Type the command wf.msc -> click on windows defender firewall properties -> turnoff the firwall state on domain profile, Private profile, and Public Profile -> click on apply and ok 
+- Type Run in the search bar -> Type the command wf.msc -> click on windows defender firewall properties -> turnoff the firewall state on domain profile, Private profile, and Public Profile -> click on apply and ok 
 
 ----------
 
