@@ -86,7 +86,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ------
 
-![image](https://github.com/user-attachments/assets/1a18ef83-9b85-4a5d-a1e6-50fbac3120e9)
+![image](https://github.com/user-attachments/assets/e06b1311-cee3-44f2-9b97-4a5a6f37996a)
+
 
 
 ---------
@@ -100,7 +101,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ----------
 
-![image](https://github.com/user-attachments/assets/3b6df002-4bc8-41ed-a804-3f063022a637)
+![image](https://github.com/user-attachments/assets/9ec484b2-06a0-45f9-a366-83ed07ab691d)
 
 
 -----------
@@ -111,8 +112,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 --------------
 
-  
-![image](https://github.com/user-attachments/assets/b3a37025-6f38-4f9d-bb5f-5461a3929b87)
+  ![image](https://github.com/user-attachments/assets/71bf18e7-87eb-45f0-aae2-87acf9e073df)
+
+
 
 
 ----------
@@ -123,7 +125,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 -----------
 
 
-![image](https://github.com/user-attachments/assets/02352fb4-6278-4cb2-af04-3a4634094d0e)
+![image](https://github.com/user-attachments/assets/b08f6ec2-3a4c-4b76-a55a-fb20b25edefd)
+
 
 
 ------------
@@ -151,7 +154,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 ---------------
 
-![image](https://github.com/user-attachments/assets/d895b855-452d-45ca-9424-dfdd1f3fdf60)
+![image](https://github.com/user-attachments/assets/860ce915-ce02-4942-9391-d82a25f78a7f)
+
 
 
 ---------
