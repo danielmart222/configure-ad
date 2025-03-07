@@ -58,7 +58,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ---------------
 
-- Step 3 Create a windows servers 2022 virtual machine named DC-1
+- Step 3 Create a windows server 2022 virtual machine named DC-1
 
 -------------
 ![image](https://github.com/user-attachments/assets/d1a82508-dada-40e5-9cf2-d4abcc82b521)
