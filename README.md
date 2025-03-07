@@ -69,7 +69,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ------------
 
-- Step 4 Create a windows 10 Pro named Client-1
+- Step 4 Create a Windows 10 Pro named Client-1
 
 -----------
 
