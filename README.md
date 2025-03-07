@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Part 3 Creating users with Power shell
 - Part 4 Group Policy and Managing Accounts
 
-<h2>Deployment and Configuration Steps Part 1: Preparing AD infrastucture</h2>
+<h2>Deployment and Configuration Steps: Part 1 - Preparing AD infrastucture</h2>
 
 - Preparing AD infrastructure in azure
 
@@ -80,26 +80,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Step 5 Change DC-1’s NIC from Dynamic to Static in Azure
 
-----------
 
-![image](https://github.com/user-attachments/assets/232ea8c1-b8c4-41f8-a3f2-5e86dad63e2d)
 
 ------------------
+
 
 
 - Go to DC-1 -> under networking: select networking settings -> click on Network interface/ IP configuaration -> click on ipconfig1 towards the bottom -> under allocation: select Static -> save changes
 
 ------
 
-![image](https://github.com/user-attachments/assets/e06b1311-cee3-44f2-9b97-4a5a6f37996a)
+![image](https://github.com/user-attachments/assets/232ea8c1-b8c4-41f8-a3f2-5e86dad63e2d)
+
+----------
 
 
 
----------
 
 - Step 6 log onto DC-1 and disable the firewall so we are able to Ping DC-1 from our Client-1
 
 ---------
+
 
 
 - Type Run in the search bar -> Type the command wf.msc -> click on windows defender firewall properties -> turnoff the firewall state on the domain profile, Private profile, and Public Profile -> click on apply and ok 
