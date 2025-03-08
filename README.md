@@ -184,9 +184,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ![image](https://github.com/user-attachments/assets/a9387ba6-1720-402a-8706-e6f772c2f558)
 
 
-<h1>Deployment and Configuration Steps: Part 2 - Deploying Active Directory</h1>
+<h1>Part 2: Deploying Active Directory on Windows Server 2022 and Promoting Windows Server 2022 to a Domain Controller</h1>
 
-<h2> Part 2: Deploying Active Directory on Windows Server 2022 and Promoting Windows Server 2022 to a Domain Controller </h2>
 
 -----------
 
