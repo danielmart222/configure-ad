@@ -127,7 +127,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ----------
 
 
-- Step 6 (continued): Click on windows defender firewall properties -> turnoff the firwall state on the domain profile, Private profile, and Public Profile -> click on apply and ok
+- Step 6 (continued): Click on windows defender firewall properties -> turnoff the firewall state on the domain profile, Private profile, and Public Profile -> click on apply and ok
 
 -----------
 
