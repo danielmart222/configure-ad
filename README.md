@@ -98,7 +98,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-<h2> Step 6: log onto DC-1 and disable the firewall so we are able to Ping DC-1 from our Client-1 </h2>
+<h2> Step 6: Log onto DC-1 and disable the firewall so we are able to Ping DC-1 from our Client-1 </h2>
 
 ---------
 
@@ -142,7 +142,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ---------
 
-- 1st go to DC-1 and copy DC-1’s Private IP 10.0.0.4 -> next go to client-1 -> under Networking: select network settings -> click on Network interface / IP configuration -> under settings: select DNS servers -> under DNS servers: select custom -> Under DNS server: paste DC-1’s Private IP address -> save changes -> Restart Client-1
+- 1st go to DC-1 and copy DC-1’s Private IP Address 10.0.0.4 -> next go to client-1 -> under Networking: select network settings -> click on Network interface / IP configuration -> under settings: select DNS servers -> under DNS servers: select custom -> Under DNS server: paste DC-1’s Private IP address -> save changes -> Restart Client-1
 
 -------------
 
@@ -313,6 +313,89 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 
 <h2> Step 4: Create OU’s (Organizational Unit) and Create a Domain Admin user within the domain </h2>
+
+
+--------------
+
+- Within DC-1 -> go to start -> select Windows Administrative Tools -> next click on Active Directory Users and Computers
+
+-----------
+
+
+![image](https://github.com/user-attachments/assets/9a5a23d2-f6b8-4edd-85ce-86ad646f710b)
+
+
+-----------
+
+
+- Next click on mydomain.com -> Right click on Mydomain.com and select New -> next select Organizational Unit -> name it _EMPLOYEES
+
+-----------
+
+
+![image](https://github.com/user-attachments/assets/ab201f7c-18b6-4a53-afd6-31b8d635b74b)
+
+
+----------
+
+
+- Next Create an Organizational Unit named  _ADMINS -> 
+
+
+
+
+----------
+
+
+
+
+![image](https://github.com/user-attachments/assets/b6b3f00c-7d47-45da-969c-a40f1a45ff9e)
+
+
+
+
+------------
+
+
+- Next create a new user in the _ADMINS OU named Jane Doe -> Right click the _ADMINS OU and select new -> select user ->
+
+
+-----------
+
+
+
+![image](https://github.com/user-attachments/assets/978ef12b-1b11-4867-8844-c95d0ba2c098)
+
+
+
+--------------
+
+- Name user Jane Doe ->Enter password for user->
+
+
+
+---------
+
+
+
+![image](https://github.com/user-attachments/assets/93ccb5b1-b547-41eb-906d-42e0e4c0dfc5)
+
+
+
+----------------
+
+
+- Step 4 (continued): Right click on Jane Doe -> click on properties -> choose the member of tab -> click on add -> type: Domain Admins -> click on check names -> click on OK -> next click on apply and ok
+
+
+-----------
+
+
+
+![image](https://github.com/user-attachments/assets/7ce245b3-f1ff-49cd-9788-7e92d40e66f7)
+
+
+---------
 
 
 
