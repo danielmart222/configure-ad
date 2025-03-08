@@ -239,7 +239,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 ---------
 
-- Step 2 (continued):under Deployment Configuration: select Add a new forest-> under Root domain name: Type Mydomain.com
+- Step 2 (continued): under Deployment Configuration: select Add a new forest-> under Root domain name: Type Mydomain.com
 
 ---------
 
