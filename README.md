@@ -27,9 +27,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Part 3 Creating users with Power shell
 - Part 4 Group Policy and Managing Accounts
 
-<h2>Deployment and Configuration Steps: Part 1 - Preparing AD infrastucture</h2>
+<h1>Deployment and Configuration Steps: Part 1 - Preparing AD infrastucture</h1>
 
-- Preparing AD infrastructure in azure
+<h2>Preparing AD infrastructure in azure </h2>
 
 ------------
 
@@ -39,7 +39,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ----------
 
-- Step 1 Create a resource group
+<h2>Step 1: Create a resource group</h2>
 
 ----------
 
@@ -48,7 +48,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ----------------------
 
-- Step 2 Create a virtual network
+<h2>Step 2: Create a virtual network</h2>
 
 ------------
 
@@ -58,7 +58,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ---------------
 
-- Step 3 Create a Windows Server 2022 virtual machine named DC-1
+<h2>Step 3: Create a Windows Server 2022 virtual machine named DC-1</h2>
 
 -------------
 ![image](https://github.com/user-attachments/assets/d1a82508-dada-40e5-9cf2-d4abcc82b521)
@@ -69,7 +69,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ------------
 
-- Step 4 Create a Windows 10 Pro virtual machine named Client-1
+<h2>Step 4: Create a Windows 10 Pro virtual machine named Client-1 </h2>
 
 -----------
 
@@ -78,7 +78,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 -----------
 
-- Step 5 Change DC-1’s NIC from Dynamic to Static in Azure
+<h2>Step 5: Change DC-1’s NIC from Dynamic to Static in Azure</h2>
 
 
 
@@ -97,7 +97,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
-- Step 6 log onto DC-1 and disable the firewall so we are able to Ping DC-1 from our Client-1
+<h2> Step 6: log onto DC-1 and disable the firewall so we are able to Ping DC-1 from our Client-1 </h2>
 
 ---------
 
@@ -113,7 +113,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 -----------
 
 
-- Step 6 Type Run in the search bar -> Type the command wf.msc ->
+- Step 6 (continued):Type Run in the search bar -> Type the command wf.msc ->
 
 
 --------------
@@ -126,7 +126,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ----------
 
 
-- Step 6 Click on windows defender firewall properties -> turnoff the firwall state on the domain profile, Private profile, and Public Profile -> click on apply and ok
+- Step 6 (continued): Click on windows defender firewall properties -> turnoff the firwall state on the domain profile, Private profile, and Public Profile -> click on apply and ok
 
 -----------
 
@@ -137,7 +137,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ------------
 
-- Step 7 Change client-1’s DNS settings
+<h2> Step 7: Change client-1’s DNS settings </h2>
 
 ---------
 
@@ -151,7 +151,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ----------
 
 
-- Step 8  log in to Client-1 and Ping DC-1’s private IP address in powershell
+<h2>Step 8: Log in to Client-1 and Ping DC-1’s private IP address in powershell </h2>
 
 ---------
 
@@ -166,7 +166,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 ---------
 
-- Step 8 (continued) Open Power Shell and Ping DC-1’s IP address ->
+- Step 8 (continued): Open Power Shell and Ping DC-1’s IP address ->
 
 ----------
 
@@ -177,24 +177,24 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 -------
 
 
-- Step 8 (continued) Next type the command ipconfig /all and check the DNS server’s IP address -> the DNS server for Client-1 should have DC-1’s Private IP address
+- Step 8 (continued): Next type the command ipconfig /all and check the DNS server’s IP address -> the DNS server for Client-1 should have DC-1’s Private IP address
 
 ------------------
 
 ![image](https://github.com/user-attachments/assets/a9387ba6-1720-402a-8706-e6f772c2f558)
 
 
-<h2>Deployment and Configuration Steps: Part 2 - Deploying Active Directory</h2>
+<h1>Deployment and Configuration Steps: Part 2 - Deploying Active Directory</h1>
 
-- Part 2 Deploying Active Directory on Windows Server 2022 and Promoting Windows Server 2022 to a Domain Controller
+<h2> Part 2: Deploying Active Directory on Windows Server 2022 and Promoting Windows Server 2022 to a Domain Controller </h2>
 
 -----------
 
-- Step 1: Log onto DC-1 and open Server Manager
+<h2>Step 1: Log onto DC-1 and open Server Manager</h2>
 
 --------
 
-- Click on Add roles and features -> under Server roles: select and check Active Dircetory Domain Services -> under Confirmation: click on install.
+- Step 1 (continued): Click on Add roles and features -> under Server roles: select and check Active Dircetory Domain Services -> under Confirmation: click on install.
 
 -----------
 
@@ -204,7 +204,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 -----------
 
 
-- under Confirmation: click on install -> under results: wait until it says (installation succeeded)
+-  Step 1 (continued): under Confirmation: click on install -> under results: wait until it says (installation succeeded)
 
 
 ----------------
@@ -217,7 +217,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 
 
-- Step 2: Promote Windows Server 2022 (DC-1) to a domain controller 
+<h2>Step 2: Promote Windows Server 2022 (DC-1) to a domain controller</h2>
 
 
 
@@ -228,7 +228,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 -------------
 
-- Click on the notification icon (the Flag) and click on Promote this server to a domain controller
+- Step 2 (continued): Click on the notification icon (the Flag) and click on Promote this server to a domain controller
 
 
 -----------
@@ -239,7 +239,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 ---------
 
-- under Deployment Configuration: select Add a new forest-> under Root domain name: Type Mydomain.com
+- Step 2 (continued):under Deployment Configuration: select Add a new forest-> under Root domain name: Type Mydomain.com
 
 ---------
 
@@ -249,7 +249,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 ------
 
-- under domain controller options: enter Password and confirm Password
+- Step 2 (continued): under domain controller options: enter Password and confirm Password
 
 
 -------------
@@ -261,7 +261,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 
 
-- under DNS options: uncheck create DNS delegation
+- Step 2 (continued): under DNS options: uncheck create DNS delegation
 
 
 -----------------
@@ -274,7 +274,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 
 
-- under additional options: wait for the NetBIOS domain name to populate – then click on next
+- Step 2 (continued): under additional options: wait for the NetBIOS domain name to populate – then click on next
 
 
 ----------
@@ -287,7 +287,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 -------------
 
 
-- under Prerequisites Check: wait until you see a green check (all prerequisites checks passed successfully)  and click on install
+- Step 2 (continued): under Prerequisites Check: wait until you see a green check (all prerequisites checks passed successfully)  and click on install
 
 
 -------------
@@ -299,7 +299,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ------------
 
 
-- Step 3: After installing Active Directory Domain Services and Promoting Windows Server 2022 to a domain controller log in to DC-1 with your domain username
+<h2>Step 3: After installing Active Directory Domain Services and Promoting Windows Server 2022 to a domain controller log in to DC-1 with your domain username </h2>
 
 
 ---------------
@@ -312,7 +312,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ------------
 
 
-- Step 4: Create OU’s (Organizational Unit) and Create a Domain Admin user within the domain 
+<h2> Step 4: Create OU’s (Organizational Unit) and Create a Domain Admin user within the domain </h2>
 
 
 
