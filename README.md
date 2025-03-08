@@ -416,7 +416,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 -----------
 
-- choose the computer name tab -> click on change -> select domain -> type: mydomain.com-> click on ok
+- Choose the computer name tab -> click on change -> select domain -> type: mydomain.com-> click on ok
 
 
 -------
@@ -454,7 +454,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 ------------
 
-<h2> Step 6: Create an OU named _CLIENTS and add Client-1 to the _Clients </h2>
+<h2> Step 6: Create an OU named _CLIENTS and add Client-1 to _CLIENTS </h2>
 
 
 -----------
