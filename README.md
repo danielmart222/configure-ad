@@ -399,10 +399,85 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 
 
+<h2> Step 5: Join Client-1 to the domain </h2>
+
+
+-------------
+
+
+- Log in to client 1 as labusers-> go to settings -> next go to system -> go to about -> then click on advanced system settings -> 
+
+
+---------
+
+
+![image](https://github.com/user-attachments/assets/a09ffd31-9f32-46dc-b92a-6563db9af718)
+
+
+-----------
+
+- choose the computer name tab -> click on change -> select domain -> type: mydomain.com-> click on ok
+
+
+-------
+
+
+![image](https://github.com/user-attachments/assets/91484d83-a817-416c-95cc-dd027327e226)
+
+---------
+
+
+- Under Computer Name/Domain Changes: type Jane Doe’s username and password 
+
+
+-------------
+
+
+
+![image](https://github.com/user-attachments/assets/6a920e71-6aa5-44de-a615-f9c6d9a7ce06)
+
+
+
+-------------
+
+- You should get a welcome banner notification indicating you have joined the domain
+
+
+
+------------------
+
+
+![image](https://github.com/user-attachments/assets/7bcb12ef-6543-490e-bcd0-bc1a72eab776)
 
 
 
 
+------------
+
+<h2> Step 6: Create an OU named _CLIENTS and add Client-1 to the _Clients </h2>
+
+
+-----------
+
+- Within DC-1, go to Server Manager -> at the top right corner: click on tools-> click on Active Directory Users and Computers-> 
+
+---------------
+
+
+![image](https://github.com/user-attachments/assets/2e04787f-8daf-4c3a-ae6d-b7729c645cc7)
+
+-------
+
+- Click on Mydomain.com -> Right-click on mydomain.com -> click on New -> choose Organizational Unit -> Name it _CLIENTS ->Next, go to the Computers OU and right-click on Client-1 -> click on move -> Choose _CLIENTS-> click on ok 
+
+
+-----------
+
+
+![image](https://github.com/user-attachments/assets/039a09f6-2983-434a-9978-b5e2a3179b8c)
+
+
+--------
 
 
 
