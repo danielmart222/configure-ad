@@ -299,7 +299,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ------------
 
 
-<h2>Step 3: After installing Active Directory Domain Services and Promoting Windows Server 2022 to a domain controller log in to DC-1 with your domain username </h2>
+<h2>Step 3: After installing Active Directory Domain Services and Promoting Windows Server 2022 to a domain controller, log in to DC-1 with your domain username </h2>
 
 
 ---------------
