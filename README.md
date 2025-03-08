@@ -113,7 +113,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 -----------
 
 
-- Step 6 (continued):Type Run in the search bar -> Type the command wf.msc ->
+- Step 6 (continued): Type Run in the search bar -> Type the command wf.msc ->
 
 
 --------------
