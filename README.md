@@ -187,3 +187,149 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 <h2>Deployment and Configuration Steps: Part 2 - Deploying Active Directory</h2>
 
 - Part 2 Deploying Active Directory on Windows Server 2022 and Promoting Windows Server 2022 to a Domain Controller
+
+-----------
+
+- Step 1: Log onto DC-1 and open Server Manager
+
+--------
+
+- Click on Add roles and features -> under Server roles: select and check Active Dircetory Domain Services -> under Confirmation: click on install.
+
+-----------
+
+
+![image](https://github.com/user-attachments/assets/89381791-44bc-4aa9-90f7-ecd411b80f74)
+
+-----------
+
+
+- under Confirmation: click on install -> under results: wait until it says (installation succeeded)
+
+
+----------------
+
+
+![image](https://github.com/user-attachments/assets/a96a3e09-93a7-4a41-8a92-7ce68e681d1b)
+
+
+------------
+
+
+
+- Step 2: Promote Windows Server 2022 (DC-1) to a domain controller 
+
+
+
+-------------
+
+- Click on the notification icon (the Flag)  and click on Promote this server to a domain controller -> under Deployment Configurations: select Add a new forest -> under Root domain name: Mydomain.com -> under domain controller options: enter Password and confirm Password -> under DNS options: uncheck create DNS delegation -> under additional options: wait for the NetBIOS domain name to populate – then click on next -> under Prerequisites Check: wait until you see a green check (all prerequisites checks passed successfully)  and click on install -> wait for installation to finish ->
+
+
+-------------
+
+- Click on the notification icon (the Flag) and click on Promote this server to a domain controller
+
+
+-----------
+
+![image](https://github.com/user-attachments/assets/8df440ac-26cd-4514-9caf-393b5f26025d)
+
+
+
+---------
+
+- under Deployment Configuration: select Add a new forest-> under Root domain name: Type Mydomain.com
+
+---------
+
+![image](https://github.com/user-attachments/assets/73b96e10-62a8-4bf7-b174-ecb1095d53f9)
+
+
+
+------
+
+- under domain controller options: enter Password and confirm Password
+
+
+-------------
+
+![image](https://github.com/user-attachments/assets/9551f427-16dc-4cc6-9362-00759d290c85)
+
+
+-----------------
+
+
+
+- under DNS options: uncheck create DNS delegation
+
+
+-----------------
+
+![image](https://github.com/user-attachments/assets/c75ae157-453a-4155-8ace-37521fd723b7)
+
+
+
+--------------
+
+
+
+- under additional options: wait for the NetBIOS domain name to populate – then click on next
+
+
+----------
+
+![image](https://github.com/user-attachments/assets/8e3f166b-13c4-4faa-b487-92373ba18853)
+
+
+
+
+-------------
+
+
+- under Prerequisites Check: wait until you see a green check (all prerequisites checks passed successfully)  and click on install
+
+
+-------------
+
+![image](https://github.com/user-attachments/assets/a703ee85-8613-4f66-8894-c16ec2860336)
+
+
+
+------------
+
+
+- Step 3: After installing Active Directory Domain Services and Promoting Windows Server 2022 to a domain controller log in to DC-1 with your domain username
+
+
+---------------
+
+
+![image](https://github.com/user-attachments/assets/96483afa-339f-434f-a4c3-b283197d5b78)
+
+
+
+------------
+
+
+- Step 4: Create OU’s (Organizational Unit) and Create a Domain Admin user within the domain 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
