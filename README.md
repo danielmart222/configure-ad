@@ -26,6 +26,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Part 2 Deploying Active Directory 
 - Part 3 Creating users with Power shell
 - Part 4 Group Policy and Managing Accounts
+- Part 5 Network File Shares and Permissions
+- Part 6 DNS
 
 <h1>Deployment and Configuration Steps: Part 1 - Preparing AD infrastucture</h1>
 
