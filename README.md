@@ -105,7 +105,7 @@ This tutorial will guide you through the process of implementing on-premises Act
 
 
 
-- Type Run in the search bar -> Type the command wf.msc -> click on windows defender firewall properties -> turnoff the firewall state on the domain profile, Private profile, and Public Profile -> click on apply and ok 
+- Type Run in the search bar -> Type the command wf.msc -> click on windows defender firewall properties -> turnoff the firewall state on the Domain profile, Private profile, and Public Profile -> click on apply and ok 
 
 ----------
 
@@ -128,7 +128,7 @@ This tutorial will guide you through the process of implementing on-premises Act
 ----------
 
 
-- Step 6 (continued): Click on windows defender firewall properties -> turnoff the firewall state on the domain profile, Private profile, and Public Profile -> click on apply and ok
+- Step 6 (continued): Click on windows defender firewall properties -> turnoff the firewall state on the Domain profile, Private profile, and Public Profile -> click on apply and ok
 
 -----------
 
