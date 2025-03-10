@@ -354,7 +354,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ------------
 
 
-- Next create a new user in the _ADMINS OU named Jane Doe -> Right click the _ADMINS OU and select new -> select user ->
+- Next create a new user in the _ADMINS OU named Jane Doe -> Right click the _ADMINS OU -> select new -> select user 
 
 
 -----------
@@ -382,7 +382,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ----------------
 
 
-- Step 4 (continued): Right click on Jane Doe -> click on properties -> choose the member of tab -> click on add -> type: Domain Admins -> click on check names -> click on OK -> next click on apply and ok
+- Step 4 (continued): Right click on Jane Doe -> click on properties -> choose the member of tab -> click on add -> type: Domain Admins -> click on check names -> click on OK -> click on apply -> ok
 
 
 -----------
