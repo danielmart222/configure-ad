@@ -325,7 +325,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 -----------
 
 
-- Next click on mydomain.com -> Right click on Mydomain.com -> select New -> next, select Organizational Unit -> name it _EMPLOYEES
+- Click on mydomain.com -> Right click on Mydomain.com -> select New -> next, select Organizational Unit -> name it _EMPLOYEES
 
 -----------
 
@@ -336,7 +336,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ----------
 
 
-- Next Create an Organizational Unit named  _ADMINS -> 
+- Create an Organizational Unit named  _ADMINS -> 
 
 
 
@@ -354,7 +354,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ------------
 
 
-- Next create a new user in the _ADMINS OU named Jane Doe -> Right click the _ADMINS OU -> select new -> select user 
+- Create a new user in the _ADMINS OU named Jane Doe -> Right click the _ADMINS OU -> select new -> select user 
 
 
 -----------
