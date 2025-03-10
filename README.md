@@ -325,7 +325,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 -----------
 
 
-- Next click on mydomain.com -> Right click on Mydomain.com and select New -> next select Organizational Unit -> name it _EMPLOYEES
+- Next click on mydomain.com -> Right click on Mydomain.com -> select New -> next, select Organizational Unit -> name it _EMPLOYEES
 
 -----------
 
