@@ -465,7 +465,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 -------
 
-- Click on Mydomain.com -> Right-click on mydomain.com -> click on New -> choose Organizational Unit -> Name it _CLIENTS ->Next, go to the Computers OU and right-click on Client-1 -> click on move -> Choose _CLIENTS-> click on ok 
+- Click on Mydomain.com -> Right-click on mydomain.com -> click on New -> choose Organizational Unit -> Name it _CLIENTS ->Next, go to the Computers OU -> right-click on Client-1 -> click on move -> Choose _CLIENTS-> click on ok 
 
 
 -----------
