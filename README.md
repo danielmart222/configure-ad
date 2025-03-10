@@ -406,7 +406,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 -------------
 
 
-- Log in to client 1 as labusers-> go to settings -> next go to system -> go to about -> then click on advanced system settings -> 
+- Log in to client 1 as labusers-> go to settings -> go to system -> go to about -> then click on advanced system settings -> 
 
 
 ---------
