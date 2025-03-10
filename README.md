@@ -224,12 +224,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 -------------
 
-- Click on the notification icon (the Flag)  and click on Promote this server to a domain controller -> under Deployment Configurations: select Add a new forest -> under Root domain name: Mydomain.com -> under domain controller options: enter Password and confirm Password -> under DNS options: uncheck create DNS delegation -> under additional options: wait for the NetBIOS domain name to populate – then click on next -> under Prerequisites Check: wait until you see a green check (all prerequisites checks passed successfully)  and click on install -> wait for installation to finish ->
 
-
--------------
-
-- Step 2 (continued): Click on the notification icon (the Flag) and click on Promote this server to a domain controller
+- Click on the notification icon (the Flag) and click on Promote this server to a domain controller
 
 
 -----------
@@ -288,7 +284,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 -------------
 
 
-- Step 2 (continued): under Prerequisites Check: wait until you see a green check (all prerequisites checks passed successfully)  and click on install
+- Step 2 (continued): under Prerequisites Check: wait until you see a green check (all prerequisites checks passed successfully)  and click on install ->  wait for installation to finish
 
 
 -------------
