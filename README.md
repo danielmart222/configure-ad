@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure) Part 1 and 2 </h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines. I will create a resource group and virtual network in my Azure subscription. Then, I will deploy a Windows Server 2022 VM and a Windows 10 Pro VM to set up Active Directory Domain Services and its dependencies. After that, I will promote the Windows Server 2022 VM to a domain controller. As part of the prerequisites, I will change the Windows Server 2022 IP settings from dynamic to static and configure the Windows 10 Pro VM's DNS to point to the Windows Server 2022 private IP address, enabling it to join the domain.<br />
 
 
 
