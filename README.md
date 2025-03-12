@@ -252,7 +252,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 ------
 
-- Step 2 (continued): under domain controller options: enter Password and confirm Password
+- Step 2 (continued): under domain controller options: Enter Password and confirm Password
 
 
 -------------
