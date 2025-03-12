@@ -304,7 +304,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 ---------------
 
 
-![image](https://github.com/user-attachments/assets/96483afa-339f-434f-a4c3-b283197d5b78)
+![image](https://github.com/user-attachments/assets/db8182da-7c51-4608-a048-5abb4e27b086)
 
 
 
@@ -321,7 +321,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 -----------
 
 
-![image](https://github.com/user-attachments/assets/9a5a23d2-f6b8-4edd-85ce-86ad646f710b)
+![image](https://github.com/user-attachments/assets/6593af66-4e30-4e5a-8620-7fb2e8a7efec)
+
 
 
 -----------
@@ -332,7 +333,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 -----------
 
 
-![image](https://github.com/user-attachments/assets/ab201f7c-18b6-4a53-afd6-31b8d635b74b)
+![image](https://github.com/user-attachments/assets/7a62a0b4-5e8e-46d0-bebc-e4a3ec02c4b6)
 
 
 ----------
@@ -341,14 +342,11 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 - Create an Organizational Unit named  _ADMINS -> 
 
 
-
-
 ----------
 
 
 
-
-![image](https://github.com/user-attachments/assets/b6b3f00c-7d47-45da-969c-a40f1a45ff9e)
+![image](https://github.com/user-attachments/assets/4999376d-3e38-417c-8559-0701fc7d3488)
 
 
 
@@ -363,7 +361,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 
 
-![image](https://github.com/user-attachments/assets/978ef12b-1b11-4867-8844-c95d0ba2c098)
+![image](https://github.com/user-attachments/assets/cff0c3d4-436a-4923-8664-227e145abece)
+
 
 
 
@@ -377,7 +376,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 
 
-![image](https://github.com/user-attachments/assets/93ccb5b1-b547-41eb-906d-42e0e4c0dfc5)
+![image](https://github.com/user-attachments/assets/9dda6aa5-5967-4f2a-83f6-5fc3129801b4)
+
 
 
 
@@ -391,7 +391,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 
 
-![image](https://github.com/user-attachments/assets/7ce245b3-f1ff-49cd-9788-7e92d40e66f7)
+![image](https://github.com/user-attachments/assets/56ac33b2-8771-4368-b7c6-69c5bab5024d)
+
 
 
 ---------
@@ -410,7 +411,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 ---------
 
 
-![image](https://github.com/user-attachments/assets/a09ffd31-9f32-46dc-b92a-6563db9af718)
+![image](https://github.com/user-attachments/assets/03abfe0a-54ab-47dd-a895-92fb6d1d5860)
+
 
 
 -----------
@@ -421,7 +423,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 -------
 
 
-![image](https://github.com/user-attachments/assets/91484d83-a817-416c-95cc-dd027327e226)
+![image](https://github.com/user-attachments/assets/46004928-e624-43d3-abcd-0837e694c35b)
+
 
 ---------
 
@@ -433,7 +436,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 
 
-![image](https://github.com/user-attachments/assets/6a920e71-6aa5-44de-a615-f9c6d9a7ce06)
+![image](https://github.com/user-attachments/assets/a8beff34-6ff4-47ea-b89c-a9205a9d5d1e)
+
 
 
 
@@ -446,8 +450,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 ------------------
 
 
-![image](https://github.com/user-attachments/assets/7bcb12ef-6543-490e-bcd0-bc1a72eab776)
-
+![image](https://github.com/user-attachments/assets/af026284-e3db-4741-b6f3-9b9af23de032)
 
 
 
@@ -463,7 +466,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 ---------------
 
 
-![image](https://github.com/user-attachments/assets/2e04787f-8daf-4c3a-ae6d-b7729c645cc7)
+![image](https://github.com/user-attachments/assets/bc7fa945-bba0-4515-a713-8fbb085349c8)
+
 
 -------
 
@@ -473,7 +477,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 -----------
 
 
-![image](https://github.com/user-attachments/assets/039a09f6-2983-434a-9978-b5e2a3179b8c)
+![image](https://github.com/user-attachments/assets/c78ab8b3-075f-48a2-b657-57f4e8d16696)
+
 
 
 --------
