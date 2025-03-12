@@ -45,7 +45,8 @@ This tutorial will guide you through the process of implementing on-premises Act
 ----------
 
 
-![image](https://github.com/user-attachments/assets/66ad7e5c-5d86-4c54-ae70-f20fbb7bc764)
+![image](https://github.com/user-attachments/assets/46368609-71f5-4db3-96ec-30aa38d0f42d)
+
 
 ----------------------
 
@@ -53,8 +54,7 @@ This tutorial will guide you through the process of implementing on-premises Act
 
 ------------
 
-![image](https://github.com/user-attachments/assets/79e22a53-ff4a-45e8-9498-5c6d249c1c96)
-
+![image](https://github.com/user-attachments/assets/e533f9dd-d622-4c77-b097-547ee1380220)
 
 
 ---------------
@@ -91,7 +91,7 @@ This tutorial will guide you through the process of implementing on-premises Act
 
 ------
 
-![image](https://github.com/user-attachments/assets/768b2a42-39c4-4490-9bbf-bdb2c3b2d185)
+![image](https://github.com/user-attachments/assets/050f8253-6ae5-4aa2-9203-ac2a7ebd1642)
 
 
 ----------
@@ -109,7 +109,7 @@ This tutorial will guide you through the process of implementing on-premises Act
 
 ----------
 
-![image](https://github.com/user-attachments/assets/9ec484b2-06a0-45f9-a366-83ed07ab691d)
+![image](https://github.com/user-attachments/assets/794f96bc-20a5-42f6-acf6-0dd43a320ceb)
 
 
 -----------
@@ -133,8 +133,7 @@ This tutorial will guide you through the process of implementing on-premises Act
 -----------
 
 
-![image](https://github.com/user-attachments/assets/b08f6ec2-3a4c-4b76-a55a-fb20b25edefd)
-
+![image](https://github.com/user-attachments/assets/63ac8a66-4280-481b-83f8-a03140bcbbf3)
 
 
 ------------
@@ -147,7 +146,8 @@ This tutorial will guide you through the process of implementing on-premises Act
 
 -------------
 
-![image](https://github.com/user-attachments/assets/58da03ce-32da-4e7f-a2dd-8861bf9a1fc3)
+![image](https://github.com/user-attachments/assets/d65fda4b-3cee-443e-b2ea-866c2e91bed0)
+
 
 
 ----------
@@ -173,7 +173,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 ----------
 
 
-![image](https://github.com/user-attachments/assets/76f40ab7-9013-4746-878a-fed12bd0a1c7)
+![image](https://github.com/user-attachments/assets/4e71dbb4-96a7-4f00-9105-f66ecec28652)
+
 
 
 -------
@@ -183,8 +184,9 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 ------------------
 
-![image](https://github.com/user-attachments/assets/a9387ba6-1720-402a-8706-e6f772c2f558)
+![image](https://github.com/user-attachments/assets/67de06f4-1825-4227-bda7-7376614cceb8)
 
+------------
 
 <h1>Part 2: Deploying Active Directory on Windows Server 2022 and Promoting Windows Server 2022 to a Domain Controller</h1>
 
