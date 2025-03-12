@@ -162,7 +162,7 @@ This tutorial will guide you through the process of implementing on-premises Act
 ---------
 
 
-Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type the command ipconfig /all and check the DNS server’s IP address 
+Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> next type the command ipconfig /all and check the DNS server’s IP address 
 
 ---------------
 
@@ -172,7 +172,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s IP address -> next type 
 
 ---------
 
-- Step 8 (continued): Open Power Shell and Ping DC-1’s IP address ->
+- Step 8 (continued): Open Power Shell and Ping DC-1’s Private IP address ->
 
 ----------
 
