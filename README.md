@@ -206,7 +206,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 -----------
 
 
-![image](https://github.com/user-attachments/assets/89381791-44bc-4aa9-90f7-ecd411b80f74)
+![image](https://github.com/user-attachments/assets/6e44406d-f90e-403f-b8b3-b287e688747c)
+
 
 -----------
 
@@ -217,7 +218,8 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 ----------------
 
 
-![image](https://github.com/user-attachments/assets/a96a3e09-93a7-4a41-8a92-7ce68e681d1b)
+![image](https://github.com/user-attachments/assets/2058394b-eb6c-46cb-ad92-52467ff83151)
+
 
 
 ------------
@@ -236,8 +238,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 -----------
 
-![image](https://github.com/user-attachments/assets/8df440ac-26cd-4514-9caf-393b5f26025d)
-
+![image](https://github.com/user-attachments/assets/96bca5d2-203b-4845-a3ee-7ddf221dad87)
 
 
 ---------
@@ -246,8 +247,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 ---------
 
-![image](https://github.com/user-attachments/assets/73b96e10-62a8-4bf7-b174-ecb1095d53f9)
-
+![image](https://github.com/user-attachments/assets/7c183c4d-5704-4e50-abc4-d0d56a4fae27)
 
 
 ------
@@ -257,7 +257,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 -------------
 
-![image](https://github.com/user-attachments/assets/9551f427-16dc-4cc6-9362-00759d290c85)
+![image](https://github.com/user-attachments/assets/f0639682-ed82-488a-b7a8-7d446e888008)
 
 
 -----------------
@@ -269,8 +269,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 -----------------
 
-![image](https://github.com/user-attachments/assets/c75ae157-453a-4155-8ace-37521fd723b7)
-
+![image](https://github.com/user-attachments/assets/a18adefc-92e8-4df1-926f-a3a51620c2c9)
 
 
 --------------
@@ -282,9 +281,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 ----------
 
-![image](https://github.com/user-attachments/assets/8e3f166b-13c4-4faa-b487-92373ba18853)
-
-
+![image](https://github.com/user-attachments/assets/3ee6d36c-58cd-432d-b13d-94c23ccfa330)
 
 
 -------------
@@ -295,8 +292,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 -------------
 
-![image](https://github.com/user-attachments/assets/a703ee85-8613-4f66-8894-c16ec2860336)
-
+![image](https://github.com/user-attachments/assets/d72f9719-8551-4d35-bb05-ce56f9fa5271)
 
 
 ------------
