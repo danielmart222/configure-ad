@@ -62,11 +62,14 @@ This tutorial will guide you through the process of implementing on-premises Act
 <h2>Step 3: Create a Windows Server 2022 virtual machine named DC-1</h2>
 
 -------------
-![image](https://github.com/user-attachments/assets/d1a82508-dada-40e5-9cf2-d4abcc82b521)
+
+![image](https://github.com/user-attachments/assets/d3a8cad7-1077-449d-9c78-1ac1d5b64eef)
+
 
 ---------
 
-![image](https://github.com/user-attachments/assets/2c3c02be-ee18-473c-83d5-b652ae9bed6a)
+![image](https://github.com/user-attachments/assets/1bd8945a-de92-48da-aa9f-98eb95458564)
+
 
 ------------
 
@@ -74,7 +77,8 @@ This tutorial will guide you through the process of implementing on-premises Act
 
 -----------
 
-![image](https://github.com/user-attachments/assets/914a8f7a-05c2-4a76-827d-5f6826c121fd)
+![image](https://github.com/user-attachments/assets/3c8fa121-7da7-434d-9a9c-e4ea1716ef12)
+
 
 
 -----------
