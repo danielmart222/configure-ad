@@ -166,8 +166,7 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 
 ---------------
 
-![image](https://github.com/user-attachments/assets/860ce915-ce02-4942-9391-d82a25f78a7f)
-
+![image](https://github.com/user-attachments/assets/c7553efa-4952-4028-93c3-ff717459392d)
 
 
 ---------
@@ -384,7 +383,12 @@ Log in to Client-1 -> open PowerShell and Ping DC-1’s Private IP address -> ne
 ----------------
 
 
-- Step 4 (continued): Right click on Jane Doe -> click on properties -> choose the member of tab -> click on add -> type: Domain Admins -> click on check names -> click on OK -> click on apply -> ok
+- Step 4 (continued): Assign Jane Doe Domain Admin Access
+
+---------
+
+
+- Right click on Jane Doe -> click on properties -> choose the member of tab -> click on add -> type: Domain Admins -> click on check names -> click on OK -> click on apply -> ok
 
 
 -----------
